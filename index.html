@@ -59,7 +59,7 @@
 
       app = require('electron').remote.app,
       node = require("child_process").fork(
-        `${app.getAppPath()}/fiffth/dist/index`, //sửa thành đường dẫn đã build
+        `${app.getAppPath()}/base/dist/index`, //sửa thành đường dẫn đã build
         [],
         {
           stdio: ["pipe", "pipe", "pipe", "ipc"]
